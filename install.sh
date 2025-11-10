@@ -5,7 +5,7 @@ DISK="/dev/sda"           # Жёсткий диск
 USER="miska"              # Имя пользователя
 PASSWORD="miska"          # Пароль (user + root)
 TIMEZONE="Europe/Moscow"  # Часовой пояс
-HOSTNAME="gentoo-pc"      # Имя компьютера
+HOSTNAME="gentoo"      # Имя компьютера
 
 # --- Проверка на root ---
 [ "$(id -u)" != "0" ] && { echo -e "\033[31mОШИБКА: Запусти от root!\033[0m"; exit 1; }
